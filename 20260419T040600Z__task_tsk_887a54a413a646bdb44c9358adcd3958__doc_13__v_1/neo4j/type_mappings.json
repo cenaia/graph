@@ -1,0 +1,136 @@
+{
+  "entity_types": {
+    "元件部件": {
+      "has_collision_suffix": false,
+      "raw": "元件部件",
+      "token": "ENTITY_41F003A6F8"
+    },
+    "原因诱因": {
+      "has_collision_suffix": false,
+      "raw": "原因诱因",
+      "token": "ENTITY_A9B2117D53"
+    },
+    "安全环保要求": {
+      "has_collision_suffix": false,
+      "raw": "安全环保要求",
+      "token": "ENTITY_96825851A0"
+    },
+    "故障异常": {
+      "has_collision_suffix": false,
+      "raw": "故障异常",
+      "token": "ENTITY_319615634D"
+    },
+    "检测诊断方法": {
+      "has_collision_suffix": false,
+      "raw": "检测诊断方法",
+      "token": "ENTITY_D96DDB0E97"
+    },
+    "油液对象": {
+      "has_collision_suffix": false,
+      "raw": "油液对象",
+      "token": "ENTITY_C03B7CB3CF"
+    },
+    "监测指标": {
+      "has_collision_suffix": false,
+      "raw": "监测指标",
+      "token": "ENTITY_D373A55A1D"
+    },
+    "系统设备": {
+      "has_collision_suffix": false,
+      "raw": "系统设备",
+      "token": "ENTITY_FF3FCCA2B3"
+    },
+    "维护活动": {
+      "has_collision_suffix": false,
+      "raw": "维护活动",
+      "token": "ENTITY_EE3E3D5A8E"
+    },
+    "维护策略制度": {
+      "has_collision_suffix": false,
+      "raw": "维护策略制度",
+      "token": "ENTITY_C62E33714C"
+    }
+  },
+  "relation_types": {
+    "依据": {
+      "has_collision_suffix": false,
+      "raw": "依据",
+      "token": "REL_D984D98F05"
+    },
+    "包含": {
+      "has_collision_suffix": false,
+      "raw": "包含",
+      "token": "REL_F896FB3776"
+    },
+    "反映": {
+      "has_collision_suffix": false,
+      "raw": "反映",
+      "token": "REL_FBAF4B891A"
+    },
+    "发生于": {
+      "has_collision_suffix": false,
+      "raw": "发生于",
+      "token": "REL_3F8A56C3E0"
+    },
+    "处理": {
+      "has_collision_suffix": false,
+      "raw": "处理",
+      "token": "REL_9263E46A01"
+    },
+    "处置": {
+      "has_collision_suffix": false,
+      "raw": "处置",
+      "token": "REL_4F136DB218"
+    },
+    "导致": {
+      "has_collision_suffix": false,
+      "raw": "导致",
+      "token": "REL_9899E5D4D0"
+    },
+    "影响": {
+      "has_collision_suffix": false,
+      "raw": "影响",
+      "token": "REL_5BE321F307"
+    },
+    "指示": {
+      "has_collision_suffix": false,
+      "raw": "指示",
+      "token": "REL_9A950C085E"
+    },
+    "用于判定": {
+      "has_collision_suffix": false,
+      "raw": "用于判定",
+      "token": "REL_F200F29D83"
+    },
+    "监测": {
+      "has_collision_suffix": false,
+      "raw": "监测",
+      "token": "REL_6ED9EA33F3"
+    },
+    "约束": {
+      "has_collision_suffix": false,
+      "raw": "约束",
+      "token": "REL_056B0FE714"
+    },
+    "组成": {
+      "has_collision_suffix": false,
+      "raw": "组成",
+      "token": "REL_4E1545733F"
+    },
+    "配备": {
+      "has_collision_suffix": false,
+      "raw": "配备",
+      "token": "REL_5355C49382"
+    },
+    "针对": {
+      "has_collision_suffix": false,
+      "raw": "针对",
+      "token": "REL_93D4786288"
+    },
+    "预防": {
+      "has_collision_suffix": false,
+      "raw": "预防",
+      "token": "REL_E7943F9461"
+    }
+  }
+}
