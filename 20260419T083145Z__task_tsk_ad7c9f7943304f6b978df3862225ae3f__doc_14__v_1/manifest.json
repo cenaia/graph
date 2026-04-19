@@ -1,0 +1,313 @@
+{
+  "generated_at": "2026-04-19T08:31:46.662532+00:00",
+  "graph_stats": {
+    "entity_count": 982,
+    "relation_count": 1089,
+    "schema_version": 2
+  },
+  "import_targets": [
+    {
+      "csv_base": "https://raw.githubusercontent.com/cenaia/graph/main/20260419T083145Z__task_tsk_ad7c9f7943304f6b978df3862225ae3f__doc_14__v_1/neo4j/cypher",
+      "path": "neo4j/cypher/import.cypher",
+      "profile": "engineering",
+      "variant": "cloud"
+    },
+    {
+      "csv_base": "file:///",
+      "path": "neo4j/cypher/import.local.cypher",
+      "profile": "engineering",
+      "variant": "local"
+    }
+  ],
+  "missing_assets": [],
+  "mode": "both",
+  "neo4j_stats": {
+    "entity_count": 982,
+    "observation_count": 2233,
+    "observation_link_count": 2233,
+    "relation_count": 1089
+  },
+  "raw_assets": {
+    "entity_observations.json": {
+      "output_id": "tout_1111629cafdf4bb29c95a2ad1391bd32",
+      "output_type": "entity_observations_json",
+      "output_uri": "oss://kiveiv/kiveiv/dev/extract/kb_2/doc_14/v_1/task_tsk_ad7c9f7943304f6b978df3862225ae3f/entity_observations.json",
+      "path": "/Users/ciaccy/Desktop/0all/obj/contest/graph/20260419T083145Z__task_tsk_ad7c9f7943304f6b978df3862225ae3f__doc_14__v_1/raw/entity_observations.json",
+      "sha256": "1fdf7207671da8ed5d9b116f6884e2a72cd586977de93ca26900c4c9199152f0",
+      "size_bytes": 1241503
+    },
+    "graph.graphml": {
+      "output_id": "tout_2b267a5fd5c94633a194ddbbe75eb8fe",
+      "output_type": "graphml",
+      "output_uri": "oss://kiveiv/kiveiv/dev/extract/kb_2/doc_14/v_1/task_tsk_ad7c9f7943304f6b978df3862225ae3f/graph.graphml",
+      "path": "/Users/ciaccy/Desktop/0all/obj/contest/graph/20260419T083145Z__task_tsk_ad7c9f7943304f6b978df3862225ae3f__doc_14__v_1/raw/graph.graphml",
+      "sha256": "5eb36b445bd3f221149a6723450b0a4312e353b1075952cbf698743ebd92293a",
+      "size_bytes": 241576
+    },
+    "graph.json": {
+      "output_id": "tout_909c29e5018e4044902491ba0b210bcb",
+      "output_type": "graph_json",
+      "output_uri": "oss://kiveiv/kiveiv/dev/extract/kb_2/doc_14/v_1/task_tsk_ad7c9f7943304f6b978df3862225ae3f/graph.json",
+      "path": "/Users/ciaccy/Desktop/0all/obj/contest/graph/20260419T083145Z__task_tsk_ad7c9f7943304f6b978df3862225ae3f__doc_14__v_1/raw/graph.json",
+      "sha256": "3141190d302fa0e13c099c47b0b66b0b2042321ef5b59567c1ac80289eeaf7df",
+      "size_bytes": 1410160
+    },
+    "viewer.html": {
+      "output_id": "tout_a66cc8f1598140eca727ed3e8630b7be",
+      "output_type": "viewer_html",
+      "output_uri": "oss://kiveiv/kiveiv/dev/extract/kb_2/doc_14/v_1/task_tsk_ad7c9f7943304f6b978df3862225ae3f/viewer.html",
+      "path": "/Users/ciaccy/Desktop/0all/obj/contest/graph/20260419T083145Z__task_tsk_ad7c9f7943304f6b978df3862225ae3f__doc_14__v_1/raw/viewer.html",
+      "sha256": "c698ea7375d40c9330ec7d83696bacf47cecbd5c54bdafb20512863017f2fc36",
+      "size_bytes": 1442459
+    }
+  },
+  "raw_base_url": "https://raw.githubusercontent.com/cenaia/graph/main",
+  "relation_view_profiles": {
+    "engineering": {
+      "display_fields": [
+        "display_type_en",
+        "display_type_bilingual"
+      ],
+      "neo4j_relation_type": "canonical_type_en",
+      "query_style": "Use MATCH ()-[r:CANONICAL_TYPE_EN]->() for precise programmatic queries."
+    },
+    "selected_profile": "both",
+    "teaching": {
+      "display_fields": [
+        "display_type_zh",
+        "display_type_bilingual"
+      ],
+      "neo4j_relation_type": "canonical_type_en",
+      "query_style": "Keep English relation types for stable queries, but show Chinese or bilingual captions from relationship properties."
+    }
+  },
+  "skip_neo4j": false,
+  "task": {
+    "doc_id": 14,
+    "kb_id": 2,
+    "lineage_id": "tsk_ad7c9f7943304f6b978df3862225ae3f",
+    "root_task_id": "tsk_ad7c9f7943304f6b978df3862225ae3f",
+    "task_completed_at": "2026-04-19T04:23:30.814735+00:00",
+    "task_created_at": "2026-04-19T04:04:37.191900+00:00",
+    "task_id": "tsk_ad7c9f7943304f6b978df3862225ae3f",
+    "task_status": "completed",
+    "version_id": 14,
+    "version_no": 1
+  },
+  "type_mappings": {
+    "entity_types": {
+      "原因因素": {
+        "has_collision_suffix": false,
+        "raw": "原因因素",
+        "token": "ENTITY_AE704DCD22"
+      },
+      "处置措施": {
+        "has_collision_suffix": false,
+        "raw": "处置措施",
+        "token": "ENTITY_F6D94BB142"
+      },
+      "故障案例": {
+        "has_collision_suffix": false,
+        "raw": "故障案例",
+        "token": "ENTITY_042B5C991D"
+      },
+      "故障现象": {
+        "has_collision_suffix": false,
+        "raw": "故障现象",
+        "token": "ENTITY_18C26C3335"
+      },
+      "故障类型": {
+        "has_collision_suffix": false,
+        "raw": "故障类型",
+        "token": "ENTITY_51E0FA72BE"
+      },
+      "机电对象": {
+        "has_collision_suffix": false,
+        "raw": "机电对象",
+        "token": "ENTITY_F4B663A294"
+      },
+      "监测诊断手段": {
+        "has_collision_suffix": false,
+        "raw": "监测诊断手段",
+        "token": "ENTITY_FE84FBE938"
+      },
+      "预防管理策略": {
+        "has_collision_suffix": false,
+        "raw": "预防管理策略",
+        "token": "ENTITY_17F8BF80A1"
+      }
+    },
+    "relation_type_export_strategy": {
+      "default_relation_type_field": "canonical_type_en",
+      "experimental_zh_type_field": "teaching_type_zh",
+      "teaching_display_fields": [
+        "display_type_zh",
+        "display_type_bilingual"
+      ]
+    },
+    "relation_types": {
+      "HAS_OBSERVATION": {
+        "canonical_type_en": "HAS_OBSERVATION",
+        "display_type_bilingual": "包含观测 / Has Observation",
+        "display_type_en": "Has Observation",
+        "display_type_zh": "包含观测",
+        "legacy_token": "HAS_OBSERVATION",
+        "teaching_type_zh": "包含观测"
+      },
+      "发生于": {
+        "canonical_type_en": "OCCURS_AT",
+        "display_type_bilingual": "发生于 / Occurs At",
+        "display_type_en": "Occurs At",
+        "display_type_zh": "发生于",
+        "has_collision_suffix": false,
+        "legacy_token": "REL_3F8A56C3E0",
+        "raw": "发生于",
+        "teaching_type_zh": "发生于",
+        "token": "REL_3F8A56C3E0"
+      },
+      "导致": {
+        "canonical_type_en": "CAUSES",
+        "display_type_bilingual": "导致 / Causes",
+        "display_type_en": "Causes",
+        "display_type_zh": "导致",
+        "has_collision_suffix": false,
+        "legacy_token": "REL_9899E5D4D0",
+        "raw": "导致",
+        "teaching_type_zh": "导致",
+        "token": "REL_9899E5D4D0"
+      },
+      "归因于": {
+        "canonical_type_en": "ATTRIBUTED_TO",
+        "display_type_bilingual": "归因于 / Attributed To",
+        "display_type_en": "Attributed To",
+        "display_type_zh": "归因于",
+        "has_collision_suffix": false,
+        "legacy_token": "REL_6966A6BDB7",
+        "raw": "归因于",
+        "teaching_type_zh": "归因于",
+        "token": "REL_6966A6BDB7"
+      },
+      "未知": {
+        "canonical_type_en": "UNKNOWN_RELATION",
+        "display_type_bilingual": "未知 / Unknown Relation",
+        "display_type_en": "Unknown Relation",
+        "display_type_zh": "未知",
+        "has_collision_suffix": false,
+        "legacy_token": "REL_D9C32A4C3D",
+        "raw": "未知",
+        "teaching_type_zh": "未知",
+        "token": "REL_D9C32A4C3D"
+      },
+      "涉及": {
+        "canonical_type_en": "INVOLVES",
+        "display_type_bilingual": "涉及 / Involves",
+        "display_type_en": "Involves",
+        "display_type_zh": "涉及",
+        "has_collision_suffix": false,
+        "legacy_token": "REL_414B008BA9",
+        "raw": "涉及",
+        "teaching_type_zh": "涉及",
+        "token": "REL_414B008BA9"
+      },
+      "用于处理": {
+        "canonical_type_en": "USED_FOR_HANDLING",
+        "display_type_bilingual": "用于处理 / Used For Handling",
+        "display_type_en": "Used For Handling",
+        "display_type_zh": "用于处理",
+        "has_collision_suffix": false,
+        "legacy_token": "REL_F599D32E5F",
+        "raw": "用于处理",
+        "teaching_type_zh": "用于处理",
+        "token": "REL_F599D32E5F"
+      },
+      "用于诊断": {
+        "canonical_type_en": "USED_FOR_DIAGNOSIS",
+        "display_type_bilingual": "用于诊断 / Used For Diagnosis",
+        "display_type_en": "Used For Diagnosis",
+        "display_type_zh": "用于诊断",
+        "has_collision_suffix": false,
+        "legacy_token": "REL_0392E69299",
+        "raw": "用于诊断",
+        "teaching_type_zh": "用于诊断",
+        "token": "REL_0392E69299"
+      },
+      "用于预防": {
+        "canonical_type_en": "USED_FOR_PREVENTION",
+        "display_type_bilingual": "用于预防 / Used For Prevention",
+        "display_type_en": "Used For Prevention",
+        "display_type_zh": "用于预防",
+        "has_collision_suffix": false,
+        "legacy_token": "REL_C8F49B50A6",
+        "raw": "用于预防",
+        "teaching_type_zh": "用于预防",
+        "token": "REL_C8F49B50A6"
+      },
+      "监测": {
+        "canonical_type_en": "MEASURES",
+        "display_type_bilingual": "监测 / Measures",
+        "display_type_en": "Measures",
+        "display_type_zh": "监测",
+        "has_collision_suffix": false,
+        "legacy_token": "REL_6ED9EA33F3",
+        "raw": "监测",
+        "teaching_type_zh": "监测",
+        "token": "REL_6ED9EA33F3"
+      },
+      "表现为": {
+        "canonical_type_en": "MANIFESTS_AS",
+        "display_type_bilingual": "表现为 / Manifests As",
+        "display_type_en": "Manifests As",
+        "display_type_zh": "表现为",
+        "has_collision_suffix": false,
+        "legacy_token": "REL_5D9506010F",
+        "raw": "表现为",
+        "teaching_type_zh": "表现为",
+        "token": "REL_5D9506010F"
+      },
+      "触发": {
+        "canonical_type_en": "TRIGGERS",
+        "display_type_bilingual": "触发 / Triggers",
+        "display_type_en": "Triggers",
+        "display_type_zh": "触发",
+        "has_collision_suffix": false,
+        "legacy_token": "REL_27ECCF9785",
+        "raw": "触发",
+        "teaching_type_zh": "触发",
+        "token": "REL_27ECCF9785"
+      },
+      "适用于": {
+        "canonical_type_en": "APPLIES_TO",
+        "display_type_bilingual": "适用于 / Applies To",
+        "display_type_en": "Applies To",
+        "display_type_zh": "适用于",
+        "has_collision_suffix": false,
+        "legacy_token": "REL_FEA281029C",
+        "raw": "适用于",
+        "teaching_type_zh": "适用于",
+        "token": "REL_FEA281029C"
+      },
+      "采取": {
+        "canonical_type_en": "ADOPTS",
+        "display_type_bilingual": "采取 / Adopts",
+        "display_type_en": "Adopts",
+        "display_type_zh": "采取",
+        "has_collision_suffix": false,
+        "legacy_token": "REL_5BE0DD1AA4",
+        "raw": "采取",
+        "teaching_type_zh": "采取",
+        "token": "REL_5BE0DD1AA4"
+      },
+      "采用": {
+        "canonical_type_en": "USES",
+        "display_type_bilingual": "采用 / Uses",
+        "display_type_en": "Uses",
+        "display_type_zh": "采用",
+        "has_collision_suffix": false,
+        "legacy_token": "REL_365456916C",
+        "raw": "采用",
+        "teaching_type_zh": "采用",
+        "token": "REL_365456916C"
+      }
+    }
+  }
+}

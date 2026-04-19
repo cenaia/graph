@@ -1,0 +1,286 @@
+{
+  "entity_types": {
+    "作业活动": {
+      "has_collision_suffix": false,
+      "raw": "作业活动",
+      "token": "ENTITY_1BF85B3CA5"
+    },
+    "原因因素": {
+      "has_collision_suffix": false,
+      "raw": "原因因素",
+      "token": "ENTITY_AE704DCD22"
+    },
+    "备件耗材": {
+      "has_collision_suffix": false,
+      "raw": "备件耗材",
+      "token": "ENTITY_CED4AB5358"
+    },
+    "岗位": {
+      "has_collision_suffix": false,
+      "raw": "岗位",
+      "token": "ENTITY_F0F3E908C2"
+    },
+    "故障异常": {
+      "has_collision_suffix": false,
+      "raw": "故障异常",
+      "token": "ENTITY_319615634D"
+    },
+    "文档记录": {
+      "has_collision_suffix": false,
+      "raw": "文档记录",
+      "token": "ENTITY_60596ED084"
+    },
+    "未知": {
+      "has_collision_suffix": false,
+      "raw": "未知",
+      "token": "ENTITY_D9C32A4C3D"
+    },
+    "电气系统": {
+      "has_collision_suffix": false,
+      "raw": "电气系统",
+      "token": "ENTITY_5B8BFD7129"
+    },
+    "监测指标": {
+      "has_collision_suffix": false,
+      "raw": "监测指标",
+      "token": "ENTITY_D373A55A1D"
+    },
+    "规范程序": {
+      "has_collision_suffix": false,
+      "raw": "规范程序",
+      "token": "ENTITY_80245EF3A0"
+    },
+    "设备部件": {
+      "has_collision_suffix": false,
+      "raw": "设备部件",
+      "token": "ENTITY_D04AF6DD83"
+    }
+  },
+  "relation_type_export_strategy": {
+    "default_relation_type_field": "canonical_type_en",
+    "experimental_zh_type_field": "teaching_type_zh",
+    "teaching_display_fields": [
+      "display_type_zh",
+      "display_type_bilingual"
+    ]
+  },
+  "relation_types": {
+    "HAS_OBSERVATION": {
+      "canonical_type_en": "HAS_OBSERVATION",
+      "display_type_bilingual": "包含观测 / Has Observation",
+      "display_type_en": "Has Observation",
+      "display_type_zh": "包含观测",
+      "legacy_token": "HAS_OBSERVATION",
+      "teaching_type_zh": "包含观测"
+    },
+    "供电": {
+      "canonical_type_en": "POWERS",
+      "display_type_bilingual": "供电 / Powers",
+      "display_type_en": "Powers",
+      "display_type_zh": "供电",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_C8079CB7C7",
+      "raw": "供电",
+      "teaching_type_zh": "供电",
+      "token": "REL_C8079CB7C7"
+    },
+    "发生于": {
+      "canonical_type_en": "OCCURS_AT",
+      "display_type_bilingual": "发生于 / Occurs At",
+      "display_type_en": "Occurs At",
+      "display_type_zh": "发生于",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_3F8A56C3E0",
+      "raw": "发生于",
+      "teaching_type_zh": "发生于",
+      "token": "REL_3F8A56C3E0"
+    },
+    "处理": {
+      "canonical_type_en": "HANDLES",
+      "display_type_bilingual": "处理 / Handles",
+      "display_type_en": "Handles",
+      "display_type_zh": "处理",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_9263E46A01",
+      "raw": "处理",
+      "teaching_type_zh": "处理",
+      "token": "REL_9263E46A01"
+    },
+    "审批": {
+      "canonical_type_en": "APPROVES",
+      "display_type_bilingual": "审批 / Approves",
+      "display_type_en": "Approves",
+      "display_type_zh": "审批",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_5CE60CB75D",
+      "raw": "审批",
+      "teaching_type_zh": "审批",
+      "token": "REL_5CE60CB75D"
+    },
+    "审核": {
+      "canonical_type_en": "REVIEWS",
+      "display_type_bilingual": "审核 / Reviews",
+      "display_type_en": "Reviews",
+      "display_type_zh": "审核",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_FE945E5A0D",
+      "raw": "审核",
+      "teaching_type_zh": "审核",
+      "token": "REL_FE945E5A0D"
+    },
+    "对应": {
+      "canonical_type_en": "CORRESPONDS_TO",
+      "display_type_bilingual": "对应 / Corresponds To",
+      "display_type_en": "Corresponds To",
+      "display_type_zh": "对应",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_CA06362D50",
+      "raw": "对应",
+      "teaching_type_zh": "对应",
+      "token": "REL_CA06362D50"
+    },
+    "导致": {
+      "canonical_type_en": "CAUSES",
+      "display_type_bilingual": "导致 / Causes",
+      "display_type_en": "Causes",
+      "display_type_zh": "导致",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_9899E5D4D0",
+      "raw": "导致",
+      "teaching_type_zh": "导致",
+      "token": "REL_9899E5D4D0"
+    },
+    "引用": {
+      "canonical_type_en": "REFERENCES",
+      "display_type_bilingual": "引用 / References",
+      "display_type_en": "References",
+      "display_type_zh": "引用",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_23C0E102A0",
+      "raw": "引用",
+      "teaching_type_zh": "引用",
+      "token": "REL_23C0E102A0"
+    },
+    "形成": {
+      "canonical_type_en": "FORMS",
+      "display_type_bilingual": "形成 / Forms",
+      "display_type_en": "Forms",
+      "display_type_zh": "形成",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_2F328FAB36",
+      "raw": "形成",
+      "teaching_type_zh": "形成",
+      "token": "REL_2F328FAB36"
+    },
+    "影响": {
+      "canonical_type_en": "AFFECTS",
+      "display_type_bilingual": "影响 / Affects",
+      "display_type_en": "Affects",
+      "display_type_zh": "影响",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_5BE321F307",
+      "raw": "影响",
+      "teaching_type_zh": "影响",
+      "token": "REL_5BE321F307"
+    },
+    "执行": {
+      "canonical_type_en": "EXECUTES",
+      "display_type_bilingual": "执行 / Executes",
+      "display_type_en": "Executes",
+      "display_type_zh": "执行",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_28FEBBA225",
+      "raw": "执行",
+      "teaching_type_zh": "执行",
+      "token": "REL_28FEBBA225"
+    },
+    "监测": {
+      "canonical_type_en": "MEASURES",
+      "display_type_bilingual": "监测 / Measures",
+      "display_type_en": "Measures",
+      "display_type_zh": "监测",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_6ED9EA33F3",
+      "raw": "监测",
+      "teaching_type_zh": "监测",
+      "token": "REL_6ED9EA33F3"
+    },
+    "监督": {
+      "canonical_type_en": "SUPERVISES",
+      "display_type_bilingual": "监督 / Supervises",
+      "display_type_en": "Supervises",
+      "display_type_zh": "监督",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_D4408364FB",
+      "raw": "监督",
+      "teaching_type_zh": "监督",
+      "token": "REL_D4408364FB"
+    },
+    "符合": {
+      "canonical_type_en": "COMPLIES_WITH",
+      "display_type_bilingual": "符合 / Complies With",
+      "display_type_en": "Complies With",
+      "display_type_zh": "符合",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_7F8EEB7DDF",
+      "raw": "符合",
+      "teaching_type_zh": "符合",
+      "token": "REL_7F8EEB7DDF"
+    },
+    "诊断指标": {
+      "canonical_type_en": "HAS_DIAGNOSTIC_INDICATOR",
+      "display_type_bilingual": "诊断指标 / Has Diagnostic Indicator",
+      "display_type_en": "Has Diagnostic Indicator",
+      "display_type_zh": "诊断指标",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_5B7ADA2F1F",
+      "raw": "诊断指标",
+      "teaching_type_zh": "诊断指标",
+      "token": "REL_5B7ADA2F1F"
+    },
+    "适用于": {
+      "canonical_type_en": "APPLIES_TO",
+      "display_type_bilingual": "适用于 / Applies To",
+      "display_type_en": "Applies To",
+      "display_type_zh": "适用于",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_FEA281029C",
+      "raw": "适用于",
+      "teaching_type_zh": "适用于",
+      "token": "REL_FEA281029C"
+    },
+    "遵循": {
+      "canonical_type_en": "FOLLOWS",
+      "display_type_bilingual": "遵循 / Follows",
+      "display_type_en": "Follows",
+      "display_type_zh": "遵循",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_D32CE0D895",
+      "raw": "遵循",
+      "teaching_type_zh": "遵循",
+      "token": "REL_D32CE0D895"
+    },
+    "针对": {
+      "canonical_type_en": "TARGETS",
+      "display_type_bilingual": "针对 / Targets",
+      "display_type_en": "Targets",
+      "display_type_zh": "针对",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_93D4786288",
+      "raw": "针对",
+      "teaching_type_zh": "针对",
+      "token": "REL_93D4786288"
+    },
+    "预防": {
+      "canonical_type_en": "PREVENTS",
+      "display_type_bilingual": "预防 / Prevents",
+      "display_type_en": "Prevents",
+      "display_type_zh": "预防",
+      "has_collision_suffix": false,
+      "legacy_token": "REL_E7943F9461",
+      "raw": "预防",
+      "teaching_type_zh": "预防",
+      "token": "REL_E7943F9461"
+    }
+  }
+}
